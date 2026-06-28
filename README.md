@@ -1,14 +1,13 @@
 # MVP_ML_-_Analytics
----
+
 # Previsão de Preços de Imóveis com Machine Learning
----
+
 ## Descrição
 
 Este projeto foi desenvolvido como MVP (Minimum Viable Product) da disciplina de Machine Learning & Analytics e tem como objetivo construir e comparar modelos de aprendizado de máquina capazes de prever o preço de imóveis residenciais a partir de suas características físicas e estruturais.
 
 O trabalho contempla todas as etapas de um projeto de Ciência de Dados, desde a definição do problema até a avaliação final dos modelos, seguindo uma abordagem reprodutível e baseada em boas práticas.
 
----
 
 ## Objetivo
 
@@ -29,7 +28,6 @@ Desenvolver modelos de regressão capazes de estimar o preço de imóveis utiliz
 
 Além de realizar a previsão dos preços, o projeto busca comparar diferentes algoritmos de Machine Learning e analisar seus desempenhos.
 
----
 
 ## Dataset
 
@@ -40,7 +38,6 @@ https://www.kaggle.com/datasets/yasserh/housing-prices-dataset
 
 O conjunto de dados contém **545 imóveis**, sendo composto por uma variável alvo (preço) e doze variáveis explicativas relacionadas às características dos imóveis.
 
----
 
 ## Tecnologias utilizadas
 
@@ -52,7 +49,6 @@ O conjunto de dados contém **545 imóveis**, sendo composto por uma variável a
 - Scikit-Learn
 - XGBoost
 
----
 
 ## Etapas do projeto
 
@@ -71,7 +67,6 @@ O notebook foi organizado nas seguintes etapas:
 11. Comparação dos modelos
 12. Conclusão
 
----
 
 ## Pré-processamento
 
@@ -83,7 +78,6 @@ Foram realizadas as seguintes etapas de preparação dos dados:
 - separação entre variáveis preditoras e variável alvo;
 - divisão dos dados em treino (80%) e teste (20%).
 
----
 
 ## Modelos avaliados
 
@@ -95,7 +89,6 @@ Foram comparados três modelos de regressão:
 
 Além disso, foi realizada otimização de hiperparâmetros do modelo XGBoost utilizando Grid Search com validação cruzada.
 
----
 
 ## Resultados
 
@@ -107,7 +100,6 @@ Além disso, foi realizada otimização de hiperparâmetros do modelo XGBoost ut
 
 Após a otimização de hiperparâmetros, o XGBoost apresentou desempenho semelhante ao modelo inicial, não superando a Regressão Linear.
 
----
 
 ## Principais conclusões
 
@@ -126,15 +118,12 @@ Após a otimização de hiperparâmetros, o XGBoost apresentou desempenho semelh
 - Comparar os modelos com e sem transformação logarítmica.
 - Realizar otimização mais abrangente dos hiperparâmetros.
 
----
 
 ## Autor
 
 Henrique Nunes
 
----
 
 ## Licença
 
 Este projeto foi desenvolvido exclusivamente para fins acadêmicos.
-````
