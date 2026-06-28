@@ -1,4 +1,4 @@
-# MVP_ML_-_Analytics
+# MVP_ML_&_Analytics
 
 # Previsão de Preços de Imóveis com Machine Learning
 
